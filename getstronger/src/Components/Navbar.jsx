@@ -25,7 +25,7 @@ function Navbar() {
                 <span className='nav-icon'></span>
             </label>
             <ul className='menu'>
-                <li><Link to='main'smooth={true} duration={1000}>Header</Link></li>
+                <li><Link to='main'smooth={true} duration={1000}>Main</Link></li>
                 <li><Link to='services'smooth={true} duration={1000}>Services</Link></li>
                 <li><Link to='mentors'smooth={true} duration={1000}>Mentors</Link></li>
                 <li><Link to='about'smooth={true} duration={1000}>About</Link></li>
