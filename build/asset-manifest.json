@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.28f10ac8.chunk.css",
+    "main.js": "/static/js/main.c57b2278.chunk.js",
+    "main.js.map": "/static/js/main.c57b2278.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c7887e5b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c7887e5b.js.map",
+    "static/js/2.2fb6920e.chunk.js": "/static/js/2.2fb6920e.chunk.js",
+    "static/js/2.2fb6920e.chunk.js.map": "/static/js/2.2fb6920e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.28f10ac8.chunk.css.map": "/static/css/main.28f10ac8.chunk.css.map",
+    "static/js/2.2fb6920e.chunk.js.LICENSE.txt": "/static/js/2.2fb6920e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/BackgroundImg3.37626ecf.jpg",
+    "static/media/BogdanLazar.f2598ec2.jpg": "/static/media/BogdanLazar.f2598ec2.jpg",
+    "static/media/Calisthenics2.cc41d74a.PNG": "/static/media/Calisthenics2.cc41d74a.PNG",
+    "static/media/DietPlans.62324efd.jpg": "/static/media/DietPlans.62324efd.jpg",
+    "static/media/DorinCristea.2783c552.jpg": "/static/media/DorinCristea.2783c552.jpg",
+    "static/media/MarianCurculescu.f508bb28.jpg": "/static/media/MarianCurculescu.f508bb28.jpg",
+    "static/media/MozesValentin.1ef57b4b.jpg": "/static/media/MozesValentin.1ef57b4b.jpg",
+    "static/media/SportClimbing.63b4136d.PNG": "/static/media/SportClimbing.63b4136d.PNG",
+    "static/media/about.3656ea49.jpg": "/static/media/about.3656ea49.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7887e5b.js",
+    "static/js/2.2fb6920e.chunk.js",
+    "static/css/main.28f10ac8.chunk.css",
+    "static/js/main.c57b2278.chunk.js"
+  ]
+}
