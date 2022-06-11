@@ -11,7 +11,7 @@ function Header () {
                 <h2>Are you ready to explore?</h2>
                 <h2>Build your Phisique And Fitness With Profesionals</h2>
                 <div className='header-btns'></div>
-                    <a href='#' className='header-btn'>JOIN US</a>
+                    <a href='/#' className='header-btn'>JOIN US</a>
             </div>
         </div>
     )

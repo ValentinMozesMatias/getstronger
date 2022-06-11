@@ -1,29 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.28f10ac8.chunk.css",
-    "main.js": "/static/js/main.c57b2278.chunk.js",
-    "main.js.map": "/static/js/main.c57b2278.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c7887e5b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c7887e5b.js.map",
-    "static/js/2.2fb6920e.chunk.js": "/static/js/2.2fb6920e.chunk.js",
-    "static/js/2.2fb6920e.chunk.js.map": "/static/js/2.2fb6920e.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.28f10ac8.chunk.css.map": "/static/css/main.28f10ac8.chunk.css.map",
-    "static/js/2.2fb6920e.chunk.js.LICENSE.txt": "/static/js/2.2fb6920e.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/BackgroundImg3.37626ecf.jpg",
-    "static/media/BogdanLazar.f2598ec2.jpg": "/static/media/BogdanLazar.f2598ec2.jpg",
-    "static/media/Calisthenics2.cc41d74a.PNG": "/static/media/Calisthenics2.cc41d74a.PNG",
-    "static/media/DietPlans.62324efd.jpg": "/static/media/DietPlans.62324efd.jpg",
-    "static/media/DorinCristea.2783c552.jpg": "/static/media/DorinCristea.2783c552.jpg",
-    "static/media/MarianCurculescu.f508bb28.jpg": "/static/media/MarianCurculescu.f508bb28.jpg",
-    "static/media/MozesValentin.1ef57b4b.jpg": "/static/media/MozesValentin.1ef57b4b.jpg",
-    "static/media/SportClimbing.63b4136d.PNG": "/static/media/SportClimbing.63b4136d.PNG",
-    "static/media/about.3656ea49.jpg": "/static/media/about.3656ea49.jpg"
+    "main.css": "/getstronger.netlify.app/static/css/main.53297a5f.css",
+    "main.js": "/getstronger.netlify.app/static/js/main.35083364.js",
+    "static/media/BackgroundImg3.jpg": "/getstronger.netlify.app/static/media/BackgroundImg3.37626ecf4ca9140deef7.jpg",
+    "static/media/BackgroundImg2.jpg": "/getstronger.netlify.app/static/media/BackgroundImg2.150d753ea6b8d3fb0950.jpg",
+    "static/media/about.jpg": "/getstronger.netlify.app/static/media/about.3656ea4986ee6ee9f65b.jpg",
+    "static/media/MozesValentin.jpg": "/getstronger.netlify.app/static/media/MozesValentin.1ef57b4b4d603499d1c0.jpg",
+    "static/media/MarianCurculescu.jpg": "/getstronger.netlify.app/static/media/MarianCurculescu.f508bb28fdf956f24114.jpg",
+    "static/media/BogdanLazar.jpg": "/getstronger.netlify.app/static/media/BogdanLazar.f2598ec2ce51b2dbc95d.jpg",
+    "static/media/SportClimbing.PNG": "/getstronger.netlify.app/static/media/SportClimbing.63b4136d3b9a5a990a79.PNG",
+    "static/media/DietPlans.jpg": "/getstronger.netlify.app/static/media/DietPlans.62324efd388faea48f54.jpg",
+    "static/media/Calisthenics2.PNG": "/getstronger.netlify.app/static/media/Calisthenics2.cc41d74a2306e0ede495.PNG",
+    "static/media/DorinCristea.jpg": "/getstronger.netlify.app/static/media/DorinCristea.2783c552f82bf3552326.jpg",
+    "index.html": "/getstronger.netlify.app/index.html",
+    "main.53297a5f.css.map": "/getstronger.netlify.app/static/css/main.53297a5f.css.map",
+    "main.35083364.js.map": "/getstronger.netlify.app/static/js/main.35083364.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.c7887e5b.js",
-    "static/js/2.2fb6920e.chunk.js",
-    "static/css/main.28f10ac8.chunk.css",
-    "static/js/main.c57b2278.chunk.js"
+    "static/css/main.53297a5f.css",
+    "static/js/main.35083364.js"
   ]
 }

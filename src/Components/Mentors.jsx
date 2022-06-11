@@ -6,7 +6,7 @@ import DorinCristea from './images/DorinCristea.jpg';
 import LazarBogdan from './images/BogdanLazar.jpg';
 // import JoinMentors from './JoinMentors';
 import { Link } from 'react-router-dom';
-// import Home from '../Home';
+import Home from '../Home';
 
 
 
@@ -30,7 +30,7 @@ function Mentors () {
                 <Servicesbox2 image={LazarBogdan} title="Lazar Bogdan - Passionate Sport and Multipitch  Climber" />
                     </a>
                     <div className='pr-btns'>
-                    <Link to='/Home' className='pr-btn' exact>Go Back</Link>
+                    <Link to='/Home' className='pr-btn' exact>Go Back<span/>{Home}</Link>
                     </div>
                     </div>
                 </div>

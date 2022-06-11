@@ -9,7 +9,7 @@ function About () {
             </div>
             <div className='about-text'>
            <h1>LEARN MORE ABOUT US</h1>
-           <p>Our Mountaineering team is a non profit organization</p>
+           <p>Get yourself the right Guide</p>
            <a href="https://www.patreon.com/user?u=33855256">
            <button>READ MORE</button>
            </a>
