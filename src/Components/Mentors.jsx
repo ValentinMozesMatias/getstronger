@@ -4,9 +4,9 @@ import MarianCurculescu from './images/MarianCurculescu.jpg';
 import MozesValentin from './images/MozesValentin.jpg';
 import DorinCristea from './images/DorinCristea.jpg';
 import LazarBogdan from './images/BogdanLazar.jpg';
-import JoinMentors from './JoinMentors';
+// import JoinMentors from './JoinMentors';
 import { Link } from 'react-router-dom';
-import Home from '../Home';
+// import Home from '../Home';
 
 
 
