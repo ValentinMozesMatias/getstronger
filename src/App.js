@@ -7,17 +7,17 @@ import React from 'react';
 // import JoinMentors from './Components/JoinMentors';
 import Mentors from './Components/Mentors';
 import Home from './Home';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
     return (
         <Router>
-            <Switch>
+            <Routes>
         <div className="App">
-            <Route path="/" component={Home} exact />
+            <Route path="/Home" component={Home} exact />
             <Route path="/Mentors" component={Mentors} exact />
         </div>
-        </Switch>
+        </Routes>
       </Router>      
     )
 }
