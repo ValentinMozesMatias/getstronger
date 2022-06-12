@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './Header';
+// import Header from './Header';
 
 //Pages
-import Mentors from './Mentors';
-import {BrowserRouter as Router, Link} from 'react-router-dom';
+// import Mentors from './Mentors';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 function JoinMentors () {
     return (

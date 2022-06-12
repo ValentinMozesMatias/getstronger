@@ -4,7 +4,7 @@ import MarianCurculescu from './images/MarianCurculescu.jpg';
 import MozesValentin from './images/MozesValentin.jpg';
 import DorinCristea from './images/DorinCristea.jpg';
 import LazarBogdan from './images/BogdanLazar.jpg';
-import JoinMentors from './JoinMentors';
+// import JoinMentors from './JoinMentors';
 import { Link } from 'react-router-dom';
 import Home from '../Home';
 
@@ -21,16 +21,16 @@ function Mentors () {
                 <Servicesbox2 image={MarianCurculescu} title="Marian Curculescu - Mountaineer and Guide" />
                     </a>
                     <a href="https://www.facebook.com/valentinmatiasmozes">
-                <Servicesbox2 image={MozesValentin} title="Valentin Mozes - Climber and Calisthenics practitioner" />
+                <Servicesbox2 image={MozesValentin} title="Valentin Mozes - Climbing and Sports Instructor" />
                     </a>
                     <a href="https://www.facebook.com/profile.php?id=100011345157560">
                 <Servicesbox2 image={DorinCristea} title="Dorin Cristea - Mountaineer, Climber and Guide" />
                     </a>
                     <a href="https://www.facebook.com/bogdan.lazar88">
-                <Servicesbox2 image={LazarBogdan} title="Lazar Bogdan - Passionate Sport and Multipitch  Climber" />
+                <Servicesbox2 image={LazarBogdan} title="Lazar Bogdan - Sport and Multipitch  Climber" />
                     </a>
                     <div className='pr-btns'>
-                    <Link to='/Home' className='pr-btn' exact>Go Back</Link>
+                    <Link to='/Home' className='pr-btn' exact>Go Back<span/>{Home}</Link>
                     </div>
                     </div>
                 </div>

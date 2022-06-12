@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+git @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 body {
   margin: 0px;
@@ -409,6 +409,8 @@ nav .menu-btn,
   width: 160px;
   height: 50px;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
   align-items: center;
   font-size: 1.4rem;
