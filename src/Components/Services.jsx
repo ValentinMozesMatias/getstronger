@@ -11,7 +11,7 @@ function Services () {
             <h1>Services</h1>
             <div className='a-container'>
                 <Servicesbox image={Mountaineering} title="Mountaineering" />
-                <Servicesbox image={Calisthenics2} title="Calisthenics and Fitness" />
+                <Servicesbox image={Calisthenics2} title="Calisthenics and General fitness" />
                 <Servicesbox image={SportClimbing} title="Sport Climbing" />
                 <Servicesbox image={DietPlans} title="Diet Plans" />
             </div>
