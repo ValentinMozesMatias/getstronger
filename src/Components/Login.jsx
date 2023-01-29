@@ -1,73 +1,50 @@
-// import React, { Component } from "react";
-// import axios from "axios";
+import React, {useState} from "react";
+import {Link, useHistory} from "react-router-dom";
 
-// export default class Login extends Component {
-//     constructor(props) {
-//         super(props);
-
-//         this.state = {
-//             email: "",
-//             password: "",
-//             password_confirmation: "",
-//             loginErrors: ""
-//         };
-        
-//     this.handleSubmit = this.handleSubmit.bind(this);
-//     this.handleSubmit = this.handleSubmit.bind(this);
-//     }
-
-//     handleChange(name) {
-//         this.setState({
-//             [event.target.name]: event.target.value
-//         })
-//     }
-
-//     handleSubmit(event) {
-//         const {email, password} = this.state
-
-//         axios
-//         .post(
-//             "http:localhost:3001/sessions", {
-//             user: {
-//                 email: email,
-//                 password: password, 
-//             }
-//         },
-
-//         {withCredentials: true}
-        
-//         ).then(response => {
-//             console.log("response")
-//             // if(response.data.status === "created") {
-//             //     this.props.handleSuccesfulAuth(response.data)
-//             // }
-//         })
-//         .catch(error => {
-//             console.log("login error", error);
-//         });
-//         event.preventDefault();
-//     }
-
-//     render() {
-//         return (
-//             <div>
-//                 <form onSubmit={this.handleSubmit}>
-//                     <input
-//                     type="email"
-//                     name="email"
-//                     placeholder="Email"
-//                     value={this.state.email}
-//                     onChange={this.handleChange}
-//                     required
-//                     />
-//                     <button type="submit">Login</button>
-//                 </form>
-//             </div>
-//         )
-//     }
-
-// }
-
-
-
-
+export default function Login() {
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const history = useHistory();
+  
+    const handleLogin = (event) => {
+      event.preventDefault();
+      // validate form fields
+      // call login API
+      // if successful, redirect to home page
+      history.push('../Home');
+    };
+  
+    return (
+      <div className="login-container">
+        <h1>Login</h1>
+        <form onSubmit={handleLogin}>
+          <label htmlFor="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            value={email}
+            onChange={(event) => setEmail(event.target.value)}
+          />
+          <br />
+          <label htmlFor="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            value={password}
+            onChange={(event) => setPassword(event.target.value)}
+          />
+          <br />
+          <button type="submit">Login</button>
+        </form>
+        <br />
+        <div>
+          Don't have an account? <Link to="/create-account">Create one</Link>
+        </div>
+        <br />
+        <div>
+          <Link to="/">Go back to home page</Link>
+        </div>
+      </div>
+    );
+  }
+  
