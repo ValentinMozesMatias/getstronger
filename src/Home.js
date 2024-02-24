@@ -7,7 +7,7 @@ import Contact from './Components/Contact';
 import JoinMentors from './Components/JoinMentors';
 // import Login from './Components/Login';
 
-function Home() {
+export default function Home() {
     return (
         <div className="App">
             <Navbar/>
@@ -18,7 +18,5 @@ function Home() {
             <About/>
             <Contact/>
         </div>      
-    )
-}
-
-export default Home;
+    );
+};

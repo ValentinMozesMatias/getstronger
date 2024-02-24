@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/getstronger.netlify.app/static/css/main.53297a5f.css",
-    "main.js": "/getstronger.netlify.app/static/js/main.35083364.js",
-    "static/media/BackgroundImg3.jpg": "/getstronger.netlify.app/static/media/BackgroundImg3.37626ecf4ca9140deef7.jpg",
-    "static/media/BackgroundImg2.jpg": "/getstronger.netlify.app/static/media/BackgroundImg2.150d753ea6b8d3fb0950.jpg",
-    "static/media/about.jpg": "/getstronger.netlify.app/static/media/about.3656ea4986ee6ee9f65b.jpg",
-    "static/media/MozesValentin.jpg": "/getstronger.netlify.app/static/media/MozesValentin.1ef57b4b4d603499d1c0.jpg",
-    "static/media/MarianCurculescu.jpg": "/getstronger.netlify.app/static/media/MarianCurculescu.f508bb28fdf956f24114.jpg",
-    "static/media/BogdanLazar.jpg": "/getstronger.netlify.app/static/media/BogdanLazar.f2598ec2ce51b2dbc95d.jpg",
-    "static/media/SportClimbing.PNG": "/getstronger.netlify.app/static/media/SportClimbing.63b4136d3b9a5a990a79.PNG",
-    "static/media/DietPlans.jpg": "/getstronger.netlify.app/static/media/DietPlans.62324efd388faea48f54.jpg",
-    "static/media/Calisthenics2.PNG": "/getstronger.netlify.app/static/media/Calisthenics2.cc41d74a2306e0ede495.PNG",
-    "static/media/DorinCristea.jpg": "/getstronger.netlify.app/static/media/DorinCristea.2783c552f82bf3552326.jpg",
-    "index.html": "/getstronger.netlify.app/index.html",
-    "main.53297a5f.css.map": "/getstronger.netlify.app/static/css/main.53297a5f.css.map",
-    "main.35083364.js.map": "/getstronger.netlify.app/static/js/main.35083364.js.map"
+    "main.css": "/static/css/main.99971662.css",
+    "main.js": "/static/js/main.88b91123.js",
+    "static/media/BackgroundImg3.jpg": "/static/media/BackgroundImg3.37626ecf4ca9140deef7.jpg",
+    "static/media/BackgroundImg2.jpg": "/static/media/BackgroundImg2.150d753ea6b8d3fb0950.jpg",
+    "static/media/about.jpg": "/static/media/about.3656ea4986ee6ee9f65b.jpg",
+    "static/media/MozesValentin.jpg": "/static/media/MozesValentin.1ef57b4b4d603499d1c0.jpg",
+    "static/media/MarianCurculescu.jpg": "/static/media/MarianCurculescu.f508bb28fdf956f24114.jpg",
+    "static/media/BogdanLazar.jpg": "/static/media/BogdanLazar.f2598ec2ce51b2dbc95d.jpg",
+    "static/media/SportClimbing.PNG": "/static/media/SportClimbing.63b4136d3b9a5a990a79.PNG",
+    "static/media/DietPlans.jpg": "/static/media/DietPlans.62324efd388faea48f54.jpg",
+    "static/media/Calisthenics2.PNG": "/static/media/Calisthenics2.cc41d74a2306e0ede495.PNG",
+    "static/media/DorinCristea.jpg": "/static/media/DorinCristea.2783c552f82bf3552326.jpg",
+    "index.html": "/index.html",
+    "main.99971662.css.map": "/static/css/main.99971662.css.map",
+    "main.88b91123.js.map": "/static/js/main.88b91123.js.map"
   },
   "entrypoints": [
-    "static/css/main.53297a5f.css",
-    "static/js/main.35083364.js"
+    "static/css/main.99971662.css",
+    "static/js/main.88b91123.js"
   ]
 }

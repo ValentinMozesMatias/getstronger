@@ -1,27 +1,22 @@
-<<<<<<< HEAD
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Home } from './src/Home.js'
+import { Mentors } from './src/Mentors'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-ReactDOM.render(
-    <BrowserRouter>
-    <App />
-    </BrowserRouter>,
-    document.getElementById('root')
-=======
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import { BrowserRouter } from 'react-router-dom';
-import "bootstrap/dist/css/bootstrap.mic.css"
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
-ReactDOM.render(
+root.render(
+  <React.StrictMode basename="/app">
     <BrowserRouter>
-    <App />
-    </BrowserRouter>,
-    document.getElementById('root')
->>>>>>> e9cc94a... FirebaseAndAuthContext
+      <Routes>
+        {/* <Route path="/"  element={<App />}></Route> */}
+        <Route path="/Home" element={<Home />}></Route>
+        <Route path="/Mentors" element={<Mentors />}></Route>
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
 );
